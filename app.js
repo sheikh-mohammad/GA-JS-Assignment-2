@@ -143,4 +143,55 @@
 // document.write("<br /> Current age: ", currentAge);
 // document.write("<br /> Estimated Maximum Age: ", maxAge);
 // document.write("<br /> Amount of snacks per day: ", amountPerDay);
-// document.write("<br /> You will need ", (maxAge - currentAge) * 3, " ", favouriteSnack, " to last you until the ripe old age of ", maxAge);;
+// document.write("<br /> You will need ", (maxAge - currentAge) * 3, " ", favouriteSnack, " to last you until the ripe old age of ", maxAge);
+
+// -------------- Chapter 6 - 9 ------------------
+
+// Question 1
+// var a = 10;
+
+// document.write("Result:")
+// document.write("<br /> The value of a is: ", a);
+// document.write("<br /> .............................................");
+// document.write("<br /> <br /> The value of ++a is ", ++a);
+// document.write("<br /> Now the value of a is: ", a);
+// document.write("<br /> <br /> <br /> The value of a++ is: ", a++);
+// document.write("<br /> Now the value of a is: ", a);
+// document.write("<br /> <br /> <br /> The value of --a is: ", --a);
+// document.write("<br /> Now the value of a is: ", a);
+// document.write("<br /> <br /> <br /> The value of a-- is: ", a--);
+// document.write("<br /> Now the value of a is: ", a);
+
+// Question 2
+// var a = 2;
+// var b = 1;
+// var result = --a - --b + ++b + b--;
+
+// --a; ( Pre-decrement [a is 2] first minus and then use so { a = 1 } )
+// --a - --b; ( Pre-decrement [b is 1] first minus and then use so { b = 0 } and a was 1 and b is 0, 1 - 0 )
+// --a - --b + ++b; ( Pre-increment [b is 0] first sum and then use so { b is 1 }  and a was 1, b was 0 and b is now 1, 1 - 0 + 1 )
+// --a - --b + ++b + b--; ( Post-decrement [b is 1] first use and then sum so { b will be 1 no change, change will be on next step } and a was 1, b was 0, b was 1, b now 1 [decrement on next step], 1 - 0 + 1 + 1 )
+// 1 - 0 + 1 + 1
+//  1 + 1 + 1 = 3
+
+// document.write("a is ", a);
+// document.write("<br/> b is ", b); // b is 0 becuase of post decrement
+// document.write("<br /> result is ", result);
+
+// Question 3
+// var name = "Sheikh Mohammad";
+// document.write("Hey ", name, "! Welcome to Our Website");
+
+// Question 4
+var num = 5;
+document.write("Table of ", num);
+document.write("<br /> ", num, " X 1 = ", num * 1);
+document.write("<br /> ", num, " X 2 = ", num * 2);
+document.write("<br /> ", num, " X 3 = ", num * 3);
+document.write("<br /> ", num, " X 4 = ", num * 4);
+document.write("<br /> ", num, " X 5 = ", num * 5);
+document.write("<br /> ", num, " X 6 = ", num * 6);
+document.write("<br /> ", num, " X 7 = ", num * 7);
+document.write("<br /> ", num, " X 8 = ", num * 8);
+document.write("<br /> ", num, " X 9 = ", num * 9);
+document.write("<br /> ", num, " X 10 = ", num * 10);

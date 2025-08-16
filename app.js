@@ -134,6 +134,13 @@
 // document.write("<br /> The area is: ", 3.142 * (r * r));
 
 // Question 13
-var favouriteSnack = "chocolate chip";
-var currentAge = 15;
-var maxAge = 63
+// var favouriteSnack = "chocolate chip";
+// var currentAge = 15;
+// var maxAge = 65;
+// var amountPerDay = 3;
+
+// document.write("Favourite Snack: ", favouriteSnack);
+// document.write("<br /> Current age: ", currentAge);
+// document.write("<br /> Estimated Maximum Age: ", maxAge);
+// document.write("<br /> Amount of snacks per day: ", amountPerDay);
+// document.write("<br /> You will need ", (maxAge - currentAge) * 3, " ", favouriteSnack, " to last you until the ripe old age of ", maxAge);;

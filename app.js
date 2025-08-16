@@ -183,15 +183,31 @@
 // document.write("Hey ", name, "! Welcome to Our Website");
 
 // Question 4
-var num = 5;
-document.write("Table of ", num);
-document.write("<br /> ", num, " X 1 = ", num * 1);
-document.write("<br /> ", num, " X 2 = ", num * 2);
-document.write("<br /> ", num, " X 3 = ", num * 3);
-document.write("<br /> ", num, " X 4 = ", num * 4);
-document.write("<br /> ", num, " X 5 = ", num * 5);
-document.write("<br /> ", num, " X 6 = ", num * 6);
-document.write("<br /> ", num, " X 7 = ", num * 7);
-document.write("<br /> ", num, " X 8 = ", num * 8);
-document.write("<br /> ", num, " X 9 = ", num * 9);
-document.write("<br /> ", num, " X 10 = ", num * 10);
+// var num = 5;
+// document.write("Table of ", num);
+// document.write("<br /> ", num, " X 1 = ", num * 1);
+// document.write("<br /> ", num, " X 2 = ", num * 2);
+// document.write("<br /> ", num, " X 3 = ", num * 3);
+// document.write("<br /> ", num, " X 4 = ", num * 4);
+// document.write("<br /> ", num, " X 5 = ", num * 5);
+// document.write("<br /> ", num, " X 6 = ", num * 6);
+// document.write("<br /> ", num, " X 7 = ", num * 7);
+// document.write("<br /> ", num, " X 8 = ", num * 8);
+// document.write("<br /> ", num, " X 9 = ", num * 9);
+// document.write("<br /> ", num, " X 10 = ", num * 10);
+
+// Question 5
+// var sub1 = "English";
+// var sub2 = "Math";
+// var sub3 = "Urdu";
+// var totalMarks = 100 + 100 + 100;
+// var sub1Marks = 54;
+// var sub2Marks = 54;
+// var sub3Marks = 48;
+// var obtainedMarks = sub1Marks + sub2Marks + sub3Marks;
+
+// document.write("<table> <tr> <th> Subject </th> <th> Total Marks </th> <th> Obtained Marks </th> <th> Percentage </th> </tr>");
+// document.write("<tr>", "<td>", sub1, "</td>", "<td>", 100, "</td>", "<td>", sub1Marks, "</td>", "<td>", (sub1Marks / 100) * 100, "%", "</td>", "</tr>");
+// document.write("<tr>", "<td>", sub2, "</td>", "<td>", 100, "</td>", "<td>", sub2Marks, "</td>", "<td>", (sub2Marks / 100) * 100, "%", "</td>", "</tr>");
+// document.write("<tr>", "<td>", sub3, "</td>", "<td>", 100, "</td>", "<td>", sub3Marks, "</td>", "<td>", (sub3Marks / 100) * 100, "%", "</td>", "</tr>");
+// document.write("<tr>", "<th></th> <th>", totalMarks, "</th>", "<th>", sub1Marks + sub2Marks + sub3Marks, "</th>", "<th>", (obtainedMarks / totalMarks) * 100, "%</th>");
